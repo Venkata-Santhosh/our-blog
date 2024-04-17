@@ -1,0 +1,45 @@
+
+
+// Overriding Bootstrap color variables
+$primary:   #264653; // Charcoal
+$secondary: #2a9d8f; // Persian Green
+$success:   #2a9d8f; // Using Persian Green for success as well
+$info:      #e9c46a; // Orange Yellow Crayola
+$warning:   #f4a261; // Sandy Brown
+$danger:    #e76f51; // Burnt Sienna
+$light:     #f8f9fa; // A light color from Bootstrap’s defaults
+$dark:      #343a40; // A dark color from Bootstrap’s defaults
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.hero-section {
+  background-size: cover;
+  color: $primary; // Replace with your `$secondary` variable in SASS or the actual color value in CSS
+  // Add your background-image url here
+  // background-image: url('/path-to-your-hero-background-image.jpg');
+}
+
+/* Add custom color classes for text if needed */
+.text-secondary {
+  color: $primary !important; // This ensures that the text color is your secondary color
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Cover to handle different image sizes */
+}
+
+.card-body {
+  height: 200px; /* Fixed height to accommodate title and excerpt */
+}
