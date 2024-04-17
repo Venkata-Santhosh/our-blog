@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/our-blog/static/css/main.68d13ece.css",
+    "main.js": "/our-blog/static/js/main.ba1baf5a.js",
+    "static/js/453.058d2e0d.chunk.js": "/our-blog/static/js/453.058d2e0d.chunk.js",
+    "index.html": "/our-blog/index.html",
+    "static/media/giftcard.md": "/our-blog/static/media/giftcard.948b3de684a668501cf9.md",
+    "static/media/loyalty.md": "/our-blog/static/media/loyalty.4e8db81234b464a12cd0.md",
+    "main.68d13ece.css.map": "/our-blog/static/css/main.68d13ece.css.map",
+    "main.ba1baf5a.js.map": "/our-blog/static/js/main.ba1baf5a.js.map",
+    "453.058d2e0d.chunk.js.map": "/our-blog/static/js/453.058d2e0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68d13ece.css",
+    "static/js/main.ba1baf5a.js"
+  ]
+}
